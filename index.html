@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="fr" id="html">
+  <head>
+    <meta charset="utf-8">
+    <title id="title"></title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./css/main.css">
+    <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./medias/app-maskable-icons/app_icon_152.png">
+    <meta name="description" content="Générateur de motifs de scoubidous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
+    <meta name="theme-color" content="#ffffff"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="" id="appleTitle">
+    <meta name="msapplication-TileImage" content="./medias/app-maskable-icons/app_icon_144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <link rel="stylesheet" href="coloris/coloris.min.css"/>
+    <script src="coloris/coloris.min.js"></script>
+  </head>
+
+  <body id="body">
+
+    <header id="header"></header>
+    <main id="main">
+      <h1>Générateur de scoubidou</h1>
+
+      <!-- Maillage -->
+      <section class="expandable-tile">
+        <div class="tile-header">
+          <span class="header-title">Maillage</span>
+          <!-- <span class="header-sub-title">Sub Title</span> -->
+          <input type="checkbox">
+        </div>
+        <div class="expandable-wrapper">
+          <div class="expandable-inner">
+            <div class="inner-body">
+              <!-- <p>Indiquez ici les informations de votre maillage.</p> -->
+
+              <form id="mainForm" class="mesh-form"></form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MESH IMG -->
+      <div id="meshImgContainer" class="mesh-img-container">
+        <div class="mesh-img">
+          <!-- A -->
+          <span id="A1"  class="color-no"><span class="hiddable-cell-text">A1</span></span>
+          <span id="A2"  class="color-no"><span class="hiddable-cell-text">A2</span></span>
+          <span id="A3"  class="color-no"><span class="hiddable-cell-text">A3</span></span>
+          <span id="A4"  class="color-no"><span class="hiddable-cell-text">A4</span></span>
+          <span id="A5"  class="color-no"><span class="hiddable-cell-text">A5</span></span>
+          <span id="A6"  class="color-no"><span class="hiddable-cell-text">A6</span></span>
+          <span id="A7"  class="color-no"><span class="hiddable-cell-text">A7</span></span>
+          <span id="A8"  class="color-no"><span class="hiddable-cell-text">A8</span></span>
+          <span id="A9"  class="color-no"><span class="hiddable-cell-text">A9</span></span>
+          <span id="A10" class="color-no"><span class="hiddable-cell-text">A10</span></span>
+          <span id="A11" class="color-no"><span class="hiddable-cell-text">A11</span></span>
+          <span id="A12" class="color-no"><span class="hiddable-cell-text">A12</span></span>
+          <!-- B -->
+          <span id="B1"  class="color-no"><span class="hiddable-cell-text">B1</span></span>
+          <span id="B2"  class="color-no"><span class="hiddable-cell-text">B2</span></span>
+          <span id="B3"  class="color-no"><span class="hiddable-cell-text">B3</span></span>
+          <span id="B4"  class="color-no"><span class="hiddable-cell-text">B4</span></span>
+          <span id="B5"  class="color-no"><span class="hiddable-cell-text">B5</span></span>
+          <span id="B6"  class="color-no"><span class="hiddable-cell-text">B6</span></span>
+          <span id="B7"  class="color-no"><span class="hiddable-cell-text">B7</span></span>
+          <span id="B8"  class="color-no"><span class="hiddable-cell-text">B8</span></span>
+          <span id="B9"  class="color-no"><span class="hiddable-cell-text">B9</span></span>
+          <span id="B10" class="color-no"><span class="hiddable-cell-text">B10</span></span>
+          <span id="B11" class="color-no"><span class="hiddable-cell-text">B11</span></span>
+          <span id="B12" class="color-no"><span class="hiddable-cell-text">B12</span></span>
+          <!-- C -->
+          <span id="C1"  class="color-no"><span class="hiddable-cell-text">C1</span></span>
+          <span id="C2"  class="color-no"><span class="hiddable-cell-text">C2</span></span>
+          <span id="C3"  class="color-no"><span class="hiddable-cell-text">C3</span></span>
+          <span id="C4"  class="color-no"><span class="hiddable-cell-text">C4</span></span>
+          <span id="C5"  class="color-no"><span class="hiddable-cell-text">C5</span></span>
+          <span id="C6"  class="color-no"><span class="hiddable-cell-text">C6</span></span>
+          <span id="C7"  class="color-no"><span class="hiddable-cell-text">C7</span></span>
+          <span id="C8"  class="color-no"><span class="hiddable-cell-text">C8</span></span>
+          <span id="C9"  class="color-no"><span class="hiddable-cell-text">C9</span></span>
+          <span id="C10" class="color-no"><span class="hiddable-cell-text">C10</span></span>
+          <span id="C11" class="color-no"><span class="hiddable-cell-text">C11</span></span>
+          <span id="C12" class="color-no"><span class="hiddable-cell-text">C12</span></span>
+          <!-- D -->
+          <span id="D1"  class="color-no"><span class="hiddable-cell-text">D1</span></span>
+          <span id="D2"  class="color-no"><span class="hiddable-cell-text">D2</span></span>
+          <span id="D3"  class="color-no"><span class="hiddable-cell-text">D3</span></span>
+          <span id="D4"  class="color-no"><span class="hiddable-cell-text">D4</span></span>
+          <span id="D5"  class="color-no"><span class="hiddable-cell-text">D5</span></span>
+          <span id="D6"  class="color-no"><span class="hiddable-cell-text">D6</span></span>
+          <span id="D7"  class="color-no"><span class="hiddable-cell-text">D7</span></span>
+          <span id="D8"  class="color-no"><span class="hiddable-cell-text">D8</span></span>
+          <span id="D9"  class="color-no"><span class="hiddable-cell-text">D9</span></span>
+          <span id="D10" class="color-no"><span class="hiddable-cell-text">D10</span></span>
+          <span id="D11" class="color-no"><span class="hiddable-cell-text">D11</span></span>
+          <span id="D12" class="color-no"><span class="hiddable-cell-text">D12</span></span>
+          <!-- E -->
+          <span id="E1"  class="color-no"><span class="hiddable-cell-text">E1</span></span>
+          <span id="E2"  class="color-no"><span class="hiddable-cell-text">E2</span></span>
+          <span id="E3"  class="color-no"><span class="hiddable-cell-text">E3</span></span>
+          <span id="E4"  class="color-no"><span class="hiddable-cell-text">E4</span></span>
+          <span id="E5"  class="color-no"><span class="hiddable-cell-text">E5</span></span>
+          <span id="E6"  class="color-no"><span class="hiddable-cell-text">E6</span></span>
+          <span id="E7"  class="color-no"><span class="hiddable-cell-text">E7</span></span>
+          <span id="E8"  class="color-no"><span class="hiddable-cell-text">E8</span></span>
+          <span id="E9"  class="color-no"><span class="hiddable-cell-text">E9</span></span>
+          <span id="E10" class="color-no"><span class="hiddable-cell-text">E10</span></span>
+          <span id="E11" class="color-no"><span class="hiddable-cell-text">E11</span></span>
+          <span id="E12" class="color-no"><span class="hiddable-cell-text">E12</span></span>
+          <!-- F -->
+          <span id="F1"  class="color-no"><span class="hiddable-cell-text">F1</span></span>
+          <span id="F2"  class="color-no"><span class="hiddable-cell-text">F2</span></span>
+          <span id="F3"  class="color-no"><span class="hiddable-cell-text">F3</span></span>
+          <span id="F4"  class="color-no"><span class="hiddable-cell-text">F4</span></span>
+          <span id="F5"  class="color-no"><span class="hiddable-cell-text">F5</span></span>
+          <span id="F6"  class="color-no"><span class="hiddable-cell-text">F6</span></span>
+          <span id="F7"  class="color-no"><span class="hiddable-cell-text">F7</span></span>
+          <span id="F8"  class="color-no"><span class="hiddable-cell-text">F8</span></span>
+          <span id="F9"  class="color-no"><span class="hiddable-cell-text">F9</span></span>
+          <span id="F10" class="color-no"><span class="hiddable-cell-text">F10</span></span>
+          <span id="F11" class="color-no"><span class="hiddable-cell-text">F11</span></span>
+          <span id="F12" class="color-no"><span class="hiddable-cell-text">F12</span></span>
+          <!-- G -->
+          <span id="G1"  class="color-no"><span class="hiddable-cell-text">G1</span></span>
+          <span id="G2"  class="color-no"><span class="hiddable-cell-text">G2</span></span>
+          <span id="G3"  class="color-no"><span class="hiddable-cell-text">G3</span></span>
+          <span id="G4"  class="color-no"><span class="hiddable-cell-text">G4</span></span>
+          <span id="G5"  class="color-no"><span class="hiddable-cell-text">G5</span></span>
+          <span id="G6"  class="color-no"><span class="hiddable-cell-text">G6</span></span>
+          <span id="G7"  class="color-no"><span class="hiddable-cell-text">G7</span></span>
+          <span id="G8"  class="color-no"><span class="hiddable-cell-text">G8</span></span>
+          <span id="G9"  class="color-no"><span class="hiddable-cell-text">G9</span></span>
+          <span id="G10" class="color-no"><span class="hiddable-cell-text">G10</span></span>
+          <span id="G11" class="color-no"><span class="hiddable-cell-text">G11</span></span>
+          <span id="G12" class="color-no"><span class="hiddable-cell-text">G12</span></span>
+          <!-- H -->
+          <span id="H1"  class="color-no"><span class="hiddable-cell-text">H1</span></span>
+          <span id="H2"  class="color-no"><span class="hiddable-cell-text">H2</span></span>
+          <span id="H3"  class="color-no"><span class="hiddable-cell-text">H3</span></span>
+          <span id="H4"  class="color-no"><span class="hiddable-cell-text">H4</span></span>
+          <span id="H5"  class="color-no"><span class="hiddable-cell-text">H5</span></span>
+          <span id="H6"  class="color-no"><span class="hiddable-cell-text">H6</span></span>
+          <span id="H7"  class="color-no"><span class="hiddable-cell-text">H7</span></span>
+          <span id="H8"  class="color-no"><span class="hiddable-cell-text">H8</span></span>
+          <span id="H9"  class="color-no"><span class="hiddable-cell-text">H9</span></span>
+          <span id="H10" class="color-no"><span class="hiddable-cell-text">H10</span></span>
+          <span id="H11" class="color-no"><span class="hiddable-cell-text">H11</span></span>
+          <span id="H12" class="color-no"><span class="hiddable-cell-text">H12</span></span>
+          <!-- I -->
+          <span id="I1"  class="color-no"><span class="hiddable-cell-text">I1</span></span>
+          <span id="I2"  class="color-no"><span class="hiddable-cell-text">I2</span></span>
+          <span id="I3"  class="color-no"><span class="hiddable-cell-text">I3</span></span>
+          <span id="I4"  class="color-no"><span class="hiddable-cell-text">I4</span></span>
+          <span id="I5"  class="color-no"><span class="hiddable-cell-text">I5</span></span>
+          <span id="I6"  class="color-no"><span class="hiddable-cell-text">I6</span></span>
+          <span id="I7"  class="color-no"><span class="hiddable-cell-text">I7</span></span>
+          <span id="I8"  class="color-no"><span class="hiddable-cell-text">I8</span></span>
+          <span id="I9"  class="color-no"><span class="hiddable-cell-text">I9</span></span>
+          <span id="I10" class="color-no"><span class="hiddable-cell-text">I10</span></span>
+          <span id="I11" class="color-no"><span class="hiddable-cell-text">I11</span></span>
+          <span id="I12" class="color-no"><span class="hiddable-cell-text">I12</span></span>
+          <!-- J -->
+          <span id="J1"  class="color-no"><span class="hiddable-cell-text">J1</span></span>
+          <span id="J2"  class="color-no"><span class="hiddable-cell-text">J2</span></span>
+          <span id="J3"  class="color-no"><span class="hiddable-cell-text">J3</span></span>
+          <span id="J4"  class="color-no"><span class="hiddable-cell-text">J4</span></span>
+          <span id="J5"  class="color-no"><span class="hiddable-cell-text">J5</span></span>
+          <span id="J6"  class="color-no"><span class="hiddable-cell-text">J6</span></span>
+          <span id="J7"  class="color-no"><span class="hiddable-cell-text">J7</span></span>
+          <span id="J8"  class="color-no"><span class="hiddable-cell-text">J8</span></span>
+          <span id="J9"  class="color-no"><span class="hiddable-cell-text">J9</span></span>
+          <span id="J10" class="color-no"><span class="hiddable-cell-text">J10</span></span>
+          <span id="J11" class="color-no"><span class="hiddable-cell-text">J11</span></span>
+          <span id="J12" class="color-no"><span class="hiddable-cell-text">J12</span></span>
+          <!-- K -->
+          <span id="K1"  class="color-no"><span class="hiddable-cell-text">K1</span></span>
+          <span id="K2"  class="color-no"><span class="hiddable-cell-text">K2</span></span>
+          <span id="K3"  class="color-no"><span class="hiddable-cell-text">K3</span></span>
+          <span id="K4"  class="color-no"><span class="hiddable-cell-text">K4</span></span>
+          <span id="K5"  class="color-no"><span class="hiddable-cell-text">K5</span></span>
+          <span id="K6"  class="color-no"><span class="hiddable-cell-text">K6</span></span>
+          <span id="K7"  class="color-no"><span class="hiddable-cell-text">K7</span></span>
+          <span id="K8"  class="color-no"><span class="hiddable-cell-text">K8</span></span>
+          <span id="K9"  class="color-no"><span class="hiddable-cell-text">K9</span></span>
+          <span id="K10" class="color-no"><span class="hiddable-cell-text">K10</span></span>
+          <span id="K11" class="color-no"><span class="hiddable-cell-text">K11</span></span>
+          <span id="K12" class="color-no"><span class="hiddable-cell-text">K12</span></span>
+          <!-- L -->
+          <span id="L1"  class="color-no"><span class="hiddable-cell-text">L1</span></span>
+          <span id="L2"  class="color-no"><span class="hiddable-cell-text">L2</span></span>
+          <span id="L3"  class="color-no"><span class="hiddable-cell-text">L3</span></span>
+          <span id="L4"  class="color-no"><span class="hiddable-cell-text">L4</span></span>
+          <span id="L5"  class="color-no"><span class="hiddable-cell-text">L5</span></span>
+          <span id="L6"  class="color-no"><span class="hiddable-cell-text">L6</span></span>
+          <span id="L7"  class="color-no"><span class="hiddable-cell-text">L7</span></span>
+          <span id="L8"  class="color-no"><span class="hiddable-cell-text">L8</span></span>
+          <span id="L9"  class="color-no"><span class="hiddable-cell-text">L9</span></span>
+          <span id="L10" class="color-no"><span class="hiddable-cell-text">L10</span></span>
+          <span id="L11" class="color-no"><span class="hiddable-cell-text">L11</span></span>
+          <span id="L12" class="color-no"><span class="hiddable-cell-text">L12</span></span>
+        
+        </div>
+        <!-- <img src="medias/images/sunrise.png" /> -->
+      </div>
+
+      <!-- Couleurs -->
+      <section class="expandable-tile">
+        <div class="tile-header">
+          <span class="header-title">Couleurs</span>
+          <!-- <span> class="header-sub-title">Sub Title</span> -->
+          <input type="checkbox">
+        </div>
+        <div class="expandable-wrapper">
+          <div class="expandable-inner">
+            <div class="inner-body">
+              <!-- <p>Sélectionnez ici la couleur de chaque brin.</p> -->
+              <div id="colorPickersContainer" class="color-pickers-container">
+                <div class="strand-color-picker">
+                  <span id="strand1AText">Brin 1A</span>
+                  <input type="text" value="#e61919" data-coloris oninput="onStrandColorChange(event.target.value, '1A')">
+                </div>
+                <div id="strand1BPicker" class="strand-color-picker">
+                  <span>Brin 1B</span>
+                  <input id="strand1BPickerInput" type="text" value="#ff8000" data-coloris oninput="onStrandColorChange(event.target.value, '1B')">
+                </div>
+                
+                <div class="strand-color-picker">
+                  <span id="strand2AText">Brin 2A</span>
+                  <input type="text" value="#ffff00" data-coloris oninput="onStrandColorChange(event.target.value, '2A')">
+                </div>
+                <div id="strand2BPicker" class="strand-color-picker">
+                  <span>Brin 2B</span>
+                  <input id="strand2BPickerInput" type="text" value="#19e64d" data-coloris oninput="onStrandColorChange(event.target.value, '2B')">
+                </div>
+          
+                <div id="strand3APicker" class="strand-color-picker">
+                  <span id="strand3AText">Brin 3A</span>
+                  <input type="text" value="#0dccf2" data-coloris oninput="onStrandColorChange(event.target.value, '3A')">
+                </div>
+                <div id="strand3BPicker" class="strand-color-picker">
+                  <span>Brin 3B</span>
+                  <input id="strand3BPickerInput" type="text" value="#3d6bf5" data-coloris oninput="onStrandColorChange(event.target.value, '3B')">
+                </div>
+            
+                <div id="strand4APicker" class="strand-color-picker">
+                  <span id="strand4AText">Brin 4A</span>
+                  <input type="text" value="#993df5" data-coloris oninput="onStrandColorChange(event.target.value, '4A')">
+                </div>
+                <div id="strand4BPicker" class="strand-color-picker">
+                  <span>Brin 4B</span>
+                  <input id="strand4BPickerInput" type="text" value="#ff66d9" data-coloris oninput="onStrandColorChange(event.target.value, '4B')">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pattern visualizer -->
+      <section id="visualizer" class="visualizer"></section>
+    </main>
+    <section id="history" class="history"></section>
+
+    <!-- <footer id="footer"></footer> -->
+  </body>
+
+  <script type="module" src="./js/main.js"></script>
+
+</html>

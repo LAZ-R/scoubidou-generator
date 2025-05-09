@@ -1,0 +1,50 @@
+/* ==========================
+ Inter
+===========================*/
+
+@font-face { font-family: "inter-var"; src: url("../medias/fonts/inter/Inter.var.woff2") format("woff2"); }
+@font-face { font-family: "inter-var-italic"; src: url("../medias/fonts/inter/Inter-italic.var.woff2") format("woff2"); }
+
+/* ==========================
+ Consolas
+===========================*/
+
+@font-face { font-family: "consolas"; src: url("../medias/fonts/consolas/Consolas.woff2") format("woff2"); }
+
+/* ---------------------------------------------------------------------- */
+
+:root { 
+  font-family: 'inter-var', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color--fg-80);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
